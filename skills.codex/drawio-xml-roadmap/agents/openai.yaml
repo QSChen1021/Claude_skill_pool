@@ -1,0 +1,5 @@
+interface:
+  display_name: "Draw.io XML Roadmap Designer"
+  short_description: "根据业务/技术流程设计 draw.io .drawio 路线图与流程图，并生成遵循 mxfile/mxCell 规范的可导入 XML。"
+  default_prompt: "使用 $drawio-xml-roadmap 先梳理节点与连线结构，再生成可直接导入 draw.io Desktop 的 .drawio XML 文件，确保满足 drawio-xml-roadmap-format 规则。"
+
