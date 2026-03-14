@@ -1,0 +1,27 @@
+interface:
+  display_name: "Superpowers"
+  short_description: "Universal AI task processing framework — systematic TDD-based workflows for software development and all complex tasks including analysis, planning, and solution design"
+  default_prompt: "Use $superpowers to handle complex tasks systematically. For software development: brainstorming → design spec → writing plans → TDD implementation → code review → finish branch. For general complex tasks: assess complexity → choose the right workflow (brainstorming, task decomposition, info gathering, or solution design) → batch-process for token efficiency → structured output."
+
+invocation:
+  auto_trigger:
+    - "create a feature"
+    - "help me build"
+    - "analyze"
+    - "design a solution"
+    - "plan"
+    - "optimize"
+    - "debug"
+    - "implement"
+    - "complex task"
+    - "multi-step"
+
+policies:
+  disable_model_invocation: false
+  allowed_tools:
+    - Bash
+    - Read
+    - Write
+    - Edit
+    - Search
+    - WebSearch
